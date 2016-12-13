@@ -50,11 +50,16 @@ $ python mf.py --data_dir ./valid --valid 1 --iter 30
 #Data
 
 1. test1
-	target and source data are exactly same item and user but with different id mapping
+
+   target and source data are exactly same item and user but with different id mapping
+
 2. test2 
-	disjoin user and item (items in the same domain)
-3. test2 
-	disjoin user and item (totaly different domain)
+
+   disjoin user and item (items in the same domain)
+
+3. test3 
+
+   disjoin user and item (totaly different domain)
 
 
 

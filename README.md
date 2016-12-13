@@ -4,7 +4,7 @@ using source domain knowledge to improve target domain
 this project is implemented by tensroflow and libmf
 
 ##Environment
-⋅⋅⋅ Mac ox, tensorflow 0.11.0
+Mac os x, tensorflow 0.11.0
 
 ##Usage
 

@@ -3,10 +3,10 @@ Transfer learning
 Using source domain knowledge to improve target domain recommandation results
 . This project is implemented by tensroflow and libMF
 
-##Environment
+## Environment
 Mac os x, tensorflow 0.11.0
 
-##Usage
+## Usage
 
 compile the libmf 
 ```
@@ -31,7 +31,7 @@ use the mapping and the source data to learn a matrix factorization
 $ python mf.py --data_dir [data_directory] --valid [1/0] --iter [iterations]
 ```
 
-##example:
+## example:
 
 ```
 $ python split_valid.py ./test1 5 
@@ -39,7 +39,7 @@ $ python mapping.py --data_dir ./valid --valid 1
 $ python mf.py --data_dir ./valid --valid 1 --iter 30
 ```
 
-##Performance
+## Performance
 
 | 5-cross_validation | MF | Transferred MF |
 | :---: |:---:| :---:|
@@ -47,7 +47,7 @@ $ python mf.py --data_dir ./valid --valid 1 --iter 30
 | test2 | RMSE = 0.18548 | RMSE = 0.17934 |
 | test3 | RMSE = 1.35124 | RMSE = 1.25096 |
 
-##Data
+## Data
 
 1. test1
 
